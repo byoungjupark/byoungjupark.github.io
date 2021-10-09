@@ -102,5 +102,5 @@ FieldError: Cannot resolve keyword 'price' into field
 >>> carts = Cart.objects.filter(user=51).annotate(price = F("count") * F("product__price"))
 carts.aggregate(total_price = Sum("price"))
 {'total_price': Decimal('1990186.00')}
-
+```
 
