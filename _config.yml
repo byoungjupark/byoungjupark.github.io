@@ -14,7 +14,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Byoungju Park"
-  avatar           : "/assets/images/profile.jpeg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Backend Developer"
   location         : "Anyang, South Korea"
   email            : "byoungju1012@gmail.com"
