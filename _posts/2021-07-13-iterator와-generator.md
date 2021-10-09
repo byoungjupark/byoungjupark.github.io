@@ -2,7 +2,6 @@
 ---
 title: "TIL13. iterator와 generator"
 excerpt: "return과 yield의 차이점, generator expression, list comprehension, lazy evaluation"
-
 ---
 
 ## 1. iterator 이터레이터
@@ -52,7 +51,7 @@ generator_exp = (lazy_return(i) for i in L)
 print_iter(generator_exp)
 ```
 <함수 실행 결과>
-![](https://images.velog.io/images/byoungju1012/post/b1b4a3a1-7f3a-452f-baf9-dc4d45d074ae/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-12%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.17.42.png)
+<img src="https://images.velog.io/images/byoungju1012/post/b1b4a3a1-7f3a-452f-baf9-dc4d45d074ae/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-12%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.17.42.png">
 
 ### 2-2 generator expression 제너레이터 표현식 vs list comprehension 리스트 컴프리헨션
 
