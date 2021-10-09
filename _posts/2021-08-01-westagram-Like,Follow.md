@@ -68,8 +68,7 @@ user1.follow_set.all()
 ```
 `User` 객체는 follow_set 으로 자신을 정참조하는 `Follow` 객체까지는 접근했다. 하지만 그 이상의 정보가 없기 때문에, 자신을 정참조하는 필드 2개 중 무엇에 접근해야 하는지 알 수 없다. 따라서 각각의 필드에 `related_name` 옵션에 참조하는 필드명을 적어주어 `User` 객체가 구분할 수 있도록 한다.
 
-참조
-https://fabl1106.github.io/django/2019/05/27/Django-26.-%EC%9E%A5%EA%B3%A0-related_name-%EC%84%A4%EC%A0%95%EB%B0%A9%EB%B2%95.html
+[참조 링크 ](https://fabl1106.github.io/django/2019/05/27/Django-26.-%EC%9E%A5%EA%B3%A0-related_name-%EC%84%A4%EC%A0%95%EB%B0%A9%EB%B2%95.html)
 
 ## 4. Follow view
 ```python
