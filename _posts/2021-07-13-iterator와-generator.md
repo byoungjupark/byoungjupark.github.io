@@ -1,14 +1,14 @@
 
 ---
-title: "TIL13. iterator와 generator "
+title: "TIL13. iterator와 generator"
 excerpt: "return과 yield의 차이점, generator expression, list comprehension, lazy evaluation"
 
 ---
 
 ## 1. iterator 이터레이터
-이터레이터는 iterable한(반복가능한) 데이터를 순차적으로 꺼내올 수 있는 객체를 말한다. 이터레이터는 next() 또는 __next__ 메소드를 사용해서 하나씩 꺼내올 수 있다. 반복가능한 데이터로는 list, string, dictionary 등이 있다.
+이터레이터는 iterable한(반복가능한) 데이터를 순차적으로 꺼내올 수 있는 객체를 말한다. 이터레이터는 next() 또는 `__next__` 메소드를 사용해서 하나씩 꺼내올 수 있다. 반복가능한 데이터로는 list, string, dictionary 등이 있다.
 
-이 자료형들은 반복가능한 특성을 지녔지만 이터레이터라고 할 수는 없다. 따라서 next()메소드를 사용할 수 없다. iter() 또는 __iter__ 메소드를 통해 이터레이터로 만들어줘야 한다. 이터레이터 출력이 종료된 뒤에는 StopIteration이 발생한다. 더 이상 반복할 것이 없다는 뜻이다.
+이 자료형들은 반복가능한 특성을 지녔지만 이터레이터라고 할 수는 없다. 따라서 next()메소드를 사용할 수 없다. iter() 또는 `__iter__` 메소드를 통해 이터레이터로 만들어줘야 한다. 이터레이터 출력이 종료된 뒤에는 StopIteration이 발생한다. 더 이상 반복할 것이 없다는 뜻이다.
 ```python
 lst = [1,2,3] 
 print(type(lst)) # list 출력
