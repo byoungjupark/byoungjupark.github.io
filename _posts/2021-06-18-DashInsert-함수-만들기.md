@@ -1,5 +1,5 @@
 ---
-title: "DashInsert 함수 만들기"
+title: "TIL4. DashInsert 함수 만들기"
 excerpt: "파이썬 enumerate를 사용한 알고리즘 "
 ---
 
