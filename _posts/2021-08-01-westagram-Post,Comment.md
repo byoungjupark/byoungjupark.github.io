@@ -165,5 +165,5 @@ urlpatterns = [
 ]
 ```
 컨버터는 `<type : name>` 형식으로 되어있다.
-* <int:post_id> : `post_id`가 정수이면 매치되어 해당 뷰로 이동시킨다.
+- `<int:post_id>` : `post_id`가 정수이면 매치되어 해당 뷰로 이동시킨다.
 예를 들어 요청 url이 postings/1/comment 라면, 매치된 1은 `CommentView`의 키워드 인자로 할당된다. `def get(self, request, post_id=1)` 
