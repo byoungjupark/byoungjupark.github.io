@@ -2,6 +2,7 @@
 ---
 title: "TIL13. iterator와 generator "
 excerpt: "return과 yield의 차이점, generator expression, list comprehension, lazy evaluation"
+
 ---
 
 ## 1. iterator 이터레이터
