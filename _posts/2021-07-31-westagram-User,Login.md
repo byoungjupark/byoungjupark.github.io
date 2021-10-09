@@ -142,5 +142,5 @@ View에서 항상 넣어준 request가 사실은 HttpRequest 객체이다. ** �
 
 아직 정확하지는 않지만 토큰이 Authorization에 담겨 전송되었기 때문에, HttpRequest 객체가 Authorization 미들웨어를 거쳐 user 속성이 설정될 수 있던 것이 아닐까 한다.
 
-<a href="https://supplementary.tistory.com/255">참조1</a>
+<a href="https://supplementary.tistory.com/255">참조1</a><br>
 <a href="https://docs.djangoproject.com/ko/3.2/ref/request-response/">참조2</a>
