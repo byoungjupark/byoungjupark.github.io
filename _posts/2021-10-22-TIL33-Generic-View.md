@@ -1,6 +1,6 @@
 ---
 title : "TIL33. Generic View"
-excerpt : "Generic View와 Mixin 클래스"
+excerpt : "GenericAPIView와 Mixin, Concrete View 클래스"
 ---
 
 ## GenericAPIView
@@ -62,6 +62,7 @@ Mixin을 상속함으로써 반복되는 내용을 많이 줄일 수 있다. 하
 이에 rest_framework에서는 Mixin과 GenericAPIView를 합친 또다른 클래스들을 정의해놓았다.
 이것을 `Concrete View classes` 라고 한다.
 
+#### Concrete View 클래스의 종류
 - generics.CreateAPIView : 생성
 - generics.ListAPIView : 목록
 - generics.RetrieveAPIView : 조회
