@@ -60,6 +60,7 @@ GenericAPIView를 사용하면 클래스를 상속할 때 한번 queryset과 ser
 
 Mixin을 상속함으로써 반복되는 내용을 많이 줄일 수 있다. 하지만 여러개의 Mixin을 상속해야 하다보니 가독성이 떨어진다. 
 이에 rest_framework에서는 Mixin과 GenericAPIView를 합친 또다른 클래스들을 정의해놓았다.
+이것을 `Concrete View classes` 라고 한다.
 
 - generics.CreateAPIView : 생성
 - generics.ListAPIView : 목록
@@ -79,3 +80,5 @@ class EbookListCreateAPIView(generics.ListCreateAPIView):
     queryset         = Ebook.objects.all()
     serializer_class = EbookSerializer
 ```
+
+기존 APIView -> GenericAPIView + Mixins -> Generic 클래스 중에서 업그레이드된 것이 Concrete View Classes 이다.
