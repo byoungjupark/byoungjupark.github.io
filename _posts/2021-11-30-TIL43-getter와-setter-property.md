@@ -1,5 +1,6 @@
 ---
-"title" : "TIL42. getter와 setter, property"
+"title" : "TIL43. getter와 setter, property"
+"excerpt" : "파이썬의 getter와 setter 클래스 메서드, property"
 ---
 
 ## getter와 setter
@@ -89,3 +90,5 @@ class Order:
         elif order_price < 100000:
             self.__price *= 0.6
 ```
+
+
