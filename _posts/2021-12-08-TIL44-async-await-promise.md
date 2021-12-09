@@ -1,5 +1,5 @@
 ---
-title: "async/await, promise"
+title: "TIL44. async/await, promise"
 excerpt: "자바스크립트의  비동기방식 "
 ---
 
